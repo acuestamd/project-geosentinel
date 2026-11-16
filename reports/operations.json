@@ -416,6 +416,58 @@
       "review_queue": 73,
       "quality_gates": "Python regression, synthetic triage evaluation and frontend tests passed before this scan",
       "validation_scope": "Software regression only; not independent epidemiological validation"
+    },
+    {
+      "week": "2026-W47",
+      "recorded_at": "2026-11-16T00:17:53.475807+00:00",
+      "schema_version": "3.0",
+      "last_scan": "2026-11-16T00:17:43.607157+00:00",
+      "coverage": "degraded",
+      "sources": [
+        {
+          "id": "who",
+          "status": "ok",
+          "items": 50,
+          "signals": 43,
+          "errors": []
+        },
+        {
+          "id": "paho",
+          "status": "ok",
+          "items": 10,
+          "signals": 2,
+          "errors": []
+        },
+        {
+          "id": "news",
+          "status": "error",
+          "items": 0,
+          "signals": 0,
+          "errors": [
+            "HTTP 429"
+          ]
+        },
+        {
+          "id": "mastodon",
+          "status": "ok",
+          "items": 240,
+          "signals": 153,
+          "errors": []
+        },
+        {
+          "id": "reddit",
+          "status": "disabled",
+          "items": 0,
+          "signals": 0,
+          "errors": [
+            "Credentials not configured"
+          ]
+        }
+      ],
+      "documents": 459,
+      "review_queue": 85,
+      "quality_gates": "Python regression, synthetic triage evaluation and frontend tests passed before this scan",
+      "validation_scope": "Software regression only; not independent epidemiological validation"
     }
   ]
 }
